@@ -1,0 +1,11 @@
+# To run the app locally (shiny run app/app.py) and to build the static site.
+shiny
+shinylive==0.8.13
+numpy
+matplotlib
+
+# Only needed to rebuild app/lakefork_data.json and app/lakefork_map.npz
+# (data-prep/prepare_lakefork.py), which also needs GDAL command-line tools.
+scipy
+tifffile
+pyproj
